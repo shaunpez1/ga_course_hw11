@@ -22,7 +22,7 @@ $(document).ready(function(){
   if(window.sessionStorage.getItem("spotify_access_token")){
     $(".login")
     .html("Logout")
-    .attr("href", "/")
+    .attr("href", "/ga_course_hw11")
     .removeClass("btn-info")
     .addClass("btn-danger");
   }
